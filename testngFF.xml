@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="1">
+
+	<test name="test1">		
+	 	<parameter name="strBrowserName" value="FireFox" />
+	 	<parameter name="strBrowserType" value="firefox" />
+	    <parameter name="strPlatform" value="DotNet" />
+	    <parameter name="strApplicationUrl" value="Https://qa.onlifehealth.com" />	   
+		<classes>
+			<class name="DriverScript.StartUp"></class>
+		</classes>
+	</test>
+	
+</suite>

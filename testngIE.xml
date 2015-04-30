@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="1">
+
+	<test name="test1">		
+	 	<parameter name="strBrowserName" value="IE" />
+	 	<parameter name="strBrowserType" value="ie" />
+	    <parameter name="strApplicationUrl" value="http://qa-member.onlifehealth.com/testing/main.aspx" />	   
+		<classes>
+			<class name="DriverScript.StartUp"></class>
+		</classes>
+	</test>
+	
+</suite>

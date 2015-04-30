@@ -1,0 +1,57 @@
+"TCID","ScenarioName","Steps","KeyFunction","ExecutionCondition","Br_Name","Param1","Param2","Param3"
+"TC001","Verify the user is able to set Goal by selecting 'IMPROVING NUTRITION' program under 'ONMYTEAM'.","Invoke browser and login to application","BrowserInvoke","No","Onlife",,,
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",,,5000
+"TC001",,"Enter User ID in edit box","enter_Text_Randomdigit","No","Onlife","id","http:__schemas.xmlsoap.org_ws_2005_05_identity_claims_name",8
+"TC001",,"Enter User ID in edit box","enter_Text","Yes","Onlife","id","http:__schemas.xmlsoap.org_ws_2005_05_identity_claims_name",48484
+"TC001",,"Click on Login button","click_On_Button","Yes","Onlife","name","commit",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",15000,,
+"TC001",,"Scroll the bar from top to down","scrollBar","No","Onlife","id","member-agreement",30
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",,,5000
+"TC001",,"Verify 'Logged in Successfully'","VerifyTextInParagraph","Yes","Onlife","xpath","html/body/div[3]/section/div/div[2]/div[2]/div[1]/div/p","Logged in successfully."
+"TC001",,"Verify 'My DashBoard' Page","VerifyTextInParagraph","Yes","Onlife","xpath","html/body/div[3]/section/div/div[2]/div[1]/div/div/div/div","MY DASHBOARD"
+"TC001",,"Click on 'View More Programmes'","click_On_link","Yes","Onlife","xpath","//div[@class='coaching-summary widget-panel clearfix']/div[3]/a",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC001",,"Verify 'Improve cholesterol' in Programme list","verifyWebElementExistance","Yes","Onlife","xpath","//img[@alt='Cholesterol_goal']",TRUE
+"TC001",,"Verify 'Improve BloodPressure' in Programme list","verifyWebElementExistance","Yes","Onlife","xpath","//img[@alt='Blood_pressure_goal']",TRUE
+"TC001",,"Click on 'Improve diatary habbits'","click_On_link","Yes","Onlife","xpath","//img[@alt='Diet_goal']",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC001",,"Verify 'Add a Goal: Improve Dietary Habits' after clicking on img","VerifyTextInParagraph","Yes","Onlife","xpath","//div[@id='goal-modal']/div/h3","Add a Goal: Improve Dietary Habits"
+"TC001",,"Enter 'Fruit' Servings in 'Current Status'","enter_Text","Yes","Onlife","id","diet_goal_fruit",5
+"TC001",,"Enter 'Vegetables' Servings in 'Current Status'","enter_Text","Yes","Onlife","id","diet_goal_vegetables",5
+"TC001",,"Enter 'Dairy' Servings in 'Current Status'","enter_Text","Yes","Onlife","id","diet_goal_dairy",5
+"TC001",,"Enter 'Whole Grains' Servings in 'Current Status'","enter_Text","Yes","Onlife","id","diet_goal_grains",5
+"TC001",,"Enter 'Protein Foods' Servings in 'Current Status'","enter_Text","Yes","Onlife","id","diet_goal_protein",5
+"TC001",,"Enter 'Fruit' Servings in 'My Goal'","enter_Text","Yes","Onlife","id","diet_goal_goal_fruit",6
+"TC001",,"Enter 'Vegetables' Servings in 'My Goal'","enter_Text","Yes","Onlife","id","diet_goal_goal_vegetables",6
+"TC001",,"Enter 'Dairy' Servings in 'My Goal'","enter_Text","Yes","Onlife","id","diet_goal_goal_dairy",6
+"TC001",,"Enter 'Whole Grains' Servings in 'My Goal'","enter_Text","Yes","Onlife","id","diet_goal_goal_grains",6
+"TC001",,"Enter 'Protein Foods' Servings in 'My Goal'","enter_Text","Yes","Onlife","id","diet_goal_goal_protein",6
+"TC001",,"Enter Target date","EditSet_PreviusORFutureDate","Yes","Onlife","id","diet_goal_goal_date_string",10
+"TC001",,"Click on 'Continue'","click_On_link","Yes","Onlife","xpath","//div[@class='modal-footer']/a[3]",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",10000,,
+"TC001",,"Verify 'Select Action Steps to Create Your Plan:' in 'Creat Plan' Page","VerifyTextInParagraph","Yes","Onlife","xpath","//form[@id='new_diet_goal']/div[3]/p/strong","Select Action Steps to Create Your Plan:"
+"TC001",,"Choose action from 'Improve Diatary Habbits'","click_On_link","Yes","Onlife","xpath","//label[@class='eat_a_sufficient_amount_of_vegetables ui-selectee']",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",10000,,
+"TC001",,"Click on 'Forward Arrow' icon","click_On_link","Yes","Onlife","xpath","//img[@alt='Btn_right']",
+"TC001",,"Choose action from 'Improve Diatary Habbits'","click_On_link","Yes","Onlife","xpath","//label[@class='eat_a_sufficient_amount_of_fruits ui-selectee']",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",10000,,
+"TC001",,"Click on 'Forward Arrow' icon","click_On_link","Yes","Onlife","xpath","//img[@alt='Btn_right']",
+"TC001",,"Choose action from 'Improve Diatary Habbits'","click_On_link","Yes","Onlife","xpath","//label[@class='eat_a_sufficient_amount_of_whole_grains ui-selectee']",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",10000,,
+"TC001",,"Click on 'Forward Arrow' icon","click_On_link","Yes","Onlife","xpath","//img[@alt='Btn_right']",
+"TC001",,"Choose action from 'Improve Diatary Habbits'","click_On_link","Yes","Onlife","xpath","//label[@class='consume_a_sufficient_amount_of_low_fat_dairy ui-selectee']",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",10000,,
+"TC001",,"Click on 'Forward Arrow' icon","click_On_link","Yes","Onlife","xpath","//img[@alt='Btn_right']",
+"TC001",,"Click on 'Continue'","click_On_link","Yes","Onlife","xpath","//div[@class='modal-footer']/a[3]",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",10000,,
+"TC001",,"Verify 'Your Goal Setup is Complete!' in 'Confirm' Page","VerifyTextInParagraph","Yes","Onlife","xpath","//div[@class='setup-confirm']/p/strong","Your Goal Setup is Complete!"
+"TC001",,"Click on 'Finish'","click_On_link","Yes","Onlife","xpath","//div[@class='modal-footer']/a[4]",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",15000,,
+"TC001",,"Verify 'Improve Dietary Habits' after finishing","VerifyTextInParagraph","Yes","Onlife","xpath","//div[@class='goal-header']/h3","Improve Dietary Habits"
+"TC001",,"Click on 'DashBoard' in menu","click_On_Button","Yes","Onlife","xpath","//*[@id='dashboard']/a",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC001",,"Click on 'Remove' button of 'Improve Diatary Habbits'","click_On_Button","Yes","Onlife","xpath","//ul[@class='unstyled goal-summary']//li[2]/div[3]/a[2]",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",1000,,
+"TC001",,"Click on 'Yes I am sure'","click_On_Button","Yes","Onlife","xpath","//*[@class='modal hide wide-modal goal-delete in']/div[3]/a[1]",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC001",,"Verify 'Goal removed.' message","VerifyTextInParagraph","Yes","Onlife","id","message_content_notice","Goal removed."

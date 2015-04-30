@@ -1,0 +1,553 @@
+"TCID","ScenarioName","Steps","KeyFunction","ExecutionCondition","Br_Name","Param1","Param2","Param3"
+"TC008","Verify whether member is able to add Email ","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+"TC008",,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[1]","50_20150311_110138_102794"
+"TC008",,"Enter “Password'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[2]","Password1"
+"TC008",,"Click on “Login”","click_On_Button","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/button",
+"TC008",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC008",,"Click on 'My Settings'","click_On_link","Yes","Onlife","xpath",".//*[@id='Menu1']/li[3]/a",
+"TC008",,"Click on 'Edit' button","click_On_Button","Yes","Onlife","xpath",".//*[@id='MyProfile_edit']/span",
+"TC008",,"Add 'Email Address'","enter_Text","Yes","Onlife","xpath",".//*[@id='MyProfile_email']","Ab.k@emids.com"
+"TC008",,"Click on 'Save' button","click_On_Button","Yes","Onlife","xpath",".//*[@id='MyProfile_save']/span",
+"TC008",,"Verify added email id is displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='MyProfile_d_email']","Ab.k@emids.com"
+"TC008",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC008",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC009","Verify whether member is able to see his/her name in “Online Display Name” option","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+"TC009",,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[1]","50_20150311_110138_102794"
+"TC009",,"Enter “Password'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[2]","Password1"
+"TC009",,"Click on “Login”","click_On_Button","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/button",
+"TC009",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC009",,"Click on 'My Settings'","click_On_link","Yes","Onlife","xpath",".//*[@id='Menu1']/li[3]/a",
+"TC009",,"Click on 'Edit' button","click_On_Button","Yes","Onlife","xpath",".//*[@id='MyProfile_edit']/span",
+"TC009",,"Add 'Online Display Name'","enter_Text","Yes","Onlife","xpath",".//*[@id='MyProfile_nickname']","Abdk"
+"TC009",,"Click on 'Save' button","click_On_Button","Yes","Onlife","xpath",".//*[@id='MyProfile_save']/span",
+"TC009",,"Verify added email id is displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='MyProfile_d_email']","Abdk"
+"TC009",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC009",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC010","Verify whether member is able to select the  Status as All  from 'Show' Dropdown","Click on Email adress","click_On_link","Yes","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC010",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",9000,,
+"TC010",,"Click on 'DashBoard' link","click_On_link","Yes","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC010",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC010",,"Click on 'Go To DashBoard'","click_On_link","Yes","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC010",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC010",,"Click on 'New Messages'","click_On_link","Yes","Onlife","xpath",".//*[@id='Menu1']/li[4]/a",
+"TC010",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC010",,"Verify 'Coach page' is displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CoachTitle']/h1/span","Coach Page "
+"TC010",,"Send a message","enter_Text","Yes",,,,
+"TC010",,"Click on ''Show' dropdown and select 'All'","DropdownSelect","Yes","Onlife","xpath",".//*[@id='PostTypeDDB']","All"
+"TC010",,"Verify Sent messages are displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='pr']/ul/li[1]/div/div[1]/div/div/div/div[1]/p/span[2]","Sent: "
+"TC010",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC010",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC011","Verify whether member is able to select the  Status as Archive  from 'Show' Dropdown","Click on Email adress","click_On_link","Yes","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC011",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",9000,,
+"TC011",,"Click on 'DashBoard' link","click_On_link","Yes","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC011",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC011",,"Click on 'Go To DashBoard'","click_On_link","Yes","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC011",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC011",,"Click on 'New Messages'","click_On_link","Yes","Onlife","xpath",".//*[@id='Menu1']/li[4]/a",
+"TC011",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC011",,"Verify 'Coach page' is displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CoachTitle']/h1/span","Coach Page "
+"TC011",,"Click on ''Show' dropdown and select 'Archive'","DropdownSelect","Yes","Onlife","xpath",".//*[@id='PostTypeDDB']","Archived"
+"TC011",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC011",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC011",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC012","Verify whether member is able to select the  Status as Deleted  from 'Show' Dropdown","Click on Email adress","click_On_link","Yes","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC012",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",9000,,
+"TC012",,"Click on 'DashBoard' link","click_On_link","Yes","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC012",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC012",,"Click on 'Go To DashBoard'","click_On_link","Yes","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC012",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC012",,"Click on 'New Messages'","click_On_link","Yes","Onlife","xpath",".//*[@id='Menu1']/li[4]/a",
+"TC012",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC012",,"Verify 'Coach page' is displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CoachTitle']/h1/span","Coach Page "
+"TC012",,"Click on ''Show' dropdown and select 'Delete'","DropdownSelect","Yes","Onlife","xpath",".//*[@id='PostTypeDDB']","Deleted"
+"TC012",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC012",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC012",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC013","Verify whether member is able to select the  Status as Inbound  from 'Show' Dropdown","Click on Email adress","click_On_link","Yes","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC013",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",9000,,
+"TC013",,"Click on 'DashBoard' link","click_On_link","Yes","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC013",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC013",,"Click on 'Go To DashBoard'","click_On_link","Yes","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC013",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC013",,"Click on 'New Messages'","click_On_link","Yes","Onlife","xpath",".//*[@id='Menu1']/li[4]/a",
+"TC013",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC013",,"Verify 'Coach page' is displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CoachTitle']/h1/span","Coach Page "
+"TC013",,"Click on ''Show' dropdown and select 'Inbound'","DropdownSelect","Yes","Onlife","xpath",".//*[@id='PostTypeDDB']","Inbound"
+"TC013",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC013",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC013",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC014","Verify whether member is able to select the  Status as Sent  from 'Show' Dropdown","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+"TC014",,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[1]","50_20150311_110138_102794"
+"TC014",,"Enter “Password'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[2]","Password1"
+"TC014",,"Click on “Login”","click_On_Button","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/button",
+"TC014",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC014",,"Click on 'New Messages'","click_On_link","Yes","Onlife","xpath",".//*[@id='Menu1']/li[4]/a",
+"TC014",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC014",,"Verify 'Coach page' is displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CoachTitle']/h1/span","Coach Page "
+"TC014",,"Click on ''Show' dropdown and select 'Sent Only'","DropdownSelect","Yes","Onlife","xpath",".//*[@id='PostTypeDDB']","Sent Only"
+"TC014",,"Verify Sent messages are displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='pr']/ul/li[1]/div/div[1]/div/div/div/div[1]/p/span[2]","Sent: "
+"TC014",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC014",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC014",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC015","Verify whether member is able to select the  Status as Active  from 'Show' Dropdown","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+"TC015",,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[1]","50_20150311_110138_102794"
+"TC015",,"Enter “Password'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[2]","Password1"
+"TC015",,"Click on “Login”","click_On_Button","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/button",
+"TC015",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC015",,"Click on 'New Messages'","click_On_link","Yes","Onlife","xpath",".//*[@id='Menu1']/li[4]/a",
+"TC015",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC015",,"Verify 'Coach page' is displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CoachTitle']/h1/span","Coach Page "
+"TC015",,"Click on ''Show' dropdown and select 'Active'","DropdownSelect","Yes","Onlife","xpath",".//*[@id='PostTypeDDB']","Active"
+"TC015",,"Verify Sent messages are displayed","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='pr']/ul/li[1]/div/div[1]/div/div/div/div[1]/p/span[2]","Sent: "
+"TC015",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC015",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC015",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC016","Verify the user is able to Complete course by selecting “Quitting Tobacco” Program under“ONMYTIME”.","Click on Email adress","click_On_link","Yes","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC016",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",9000,,
+"TC016",,"Click on 'DashBoard' link","click_On_link","Yes","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC016",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC016",,"Click on 'Go To DashBoard'","click_On_link","Yes","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC016",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC016",,"Click on 'View More Courses”","click_On_link","Yes","Onlife","xpath","html/body/form[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div/div/div/div/div[1]/div/div/div[5]/p/a/span",
+"TC016",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC016",,"Click on “Quitting tobacco”","click_On_link","Yes","Onlife","xpath",".//*[@id='Courses_1168905']/div/div/div/div/div[1]/div/div/div[4]/span/ul/li[3]/a/span[1]/img[@src='/content/courses/images/Dashboard_Images/courseImg_smoking.jpg']",
+"TC016",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC016",,"Click on “Lesson 1”","click_On_link","Yes","Onlife","xpath",".//*[@id='Lessons_0']/a[1]/div",
+"TC016",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC016",,"Click on 'Start Lesson”","click_On_link","Yes","Onlife","xpath",".//*[@id='FirstLesson']/span",
+"TC016",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Verify 'Lesson 1:Beginning with Basics' page is open","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='wrapper']/div[2]/div[2]/div[1]/div[1]/div[1]/span[2]","Beginning with Basics  "
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/div[4]/a/span",
+,,"Verify 'Welcome” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/h2","Welcome!"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/div[4]/a[1]/span",
+,,"Verify 'Tobacco and Your Health' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/h2","Tobacco and Your Health "
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/div[4]/a[1]/span",
+,,"Verify ' It's Not Just a Habit...It's an Addiction' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/h2","It's Not Just a Habit...It's an Addiction "
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/div[4]/a[1]/span",
+,,"Verify 'Is Now the Right Time? How Ready are You?' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/h2","Is Now the Right Time? How Ready are You? "
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/div[4]/a[1]/span",
+,,"Verify 'Goal: ""the result or achievement toward which effort is directed' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/h2","Goal: ""the result or achievement toward which effort is directed"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/div[4]/a[1]/span",
+,,"Verify 'Wrapping up...Looking ahead' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/h2","Wrapping up...Looking ahead"
+,,"Click on”Finish'","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_281']/div[5]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson 2'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[2]/div",
+,,"Click on 'Get Started'","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[2]/div/div[2]/a/span",
+,,"Click on 'Start Lesson' for Lesson 2","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Verify 'Setting the Stage' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='wrapper']/div[2]/div[2]/div[1]/div[1]/div[1]/span[2]","Setting the Stage"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/div[5]/a/span",
+,,"Verify 'Here are four quit methods. Which sounds best for you?'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/h2","Here are four quit methods. Which sounds best for you?"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/div[4]/a[1]/span",
+,,"Verify'Setting Up Your Environment for Success' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/h2","Setting Up Your Environment for Success "
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/div[4]/a[1]/span",
+,,"Verify ' Your Surroundings and Other People' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/h2","Your Surroundings and Other People"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/div[4]/a[1]/span",
+,,"Verify ' Using ""S.T.A.R.T"" to Stop' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/h2","Using ""S.T.A.R.T"" to Stop"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_282']/div[5]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson 3'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[3]/div",
+,,"Click on 'Start Lesson' for Lesson 3","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Verify ' Dorothy and the Three-Link Chain' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/h2","Dorothy and the Three-Link Chain"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/div[5]/a/span",
+,,"Verify ' Dorothy and the Three-Link Chain'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/h2"," Dorothy and the Three-Link Chain"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/div[4]/a[1]/span",
+,,"Verify'The first link in the three-link chain is' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/h4[1]","The first link in the three-link chain is"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/div[4]/a[1]/span",
+,,"Verify  'Thinking Points' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/h2","Thinking Points"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/div[4]/a[1]/span",
+,,"Verify '  Don't Go It Alone: Getting on Track with Others' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/h2","Don't Go It Alone: Getting on Track with Others"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/div[5]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson 4'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[4]/div",
+,,"Click on 'Start Lesson' for Lesson 4","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/div[5]/a/span",
+,,"Verify 'Motivation'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/h2","Motivation "
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/div[4]/a[1]/span",
+,,"Verify'My Positive Motivators' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/h4[1]","My Positive Motivators"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/div[4]/a[1]/span",
+,,"Verify  'My Negative Motivators: ""Why Do I Use Tobacco?""' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/h2","My Negative Motivators: ""Why Do I Use Tobacco?"""
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/div[5]/a[1]/span",
+,,"Verify ' Is It Too Late for Some People?' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/h2","Is It Too Late for Some People?"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/div[5]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_284']/div[5]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson 5'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[5]/div",
+,,"Click on 'Start Lesson' for Lesson 5","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/div[5]/a/span",
+,,"Verify 'NO SHORTCUTS!'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/h2","NO SHORTCUTS! "
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/div[4]/a[1]/span",
+,,"Verify'	Returning to S.T.A.R.T.' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_283']/h4[1]","Returning to S.T.A.R.T."
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/div[4]/a[1]/span",
+,,"Verify  'Set a Quit Date' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/h2","My Negative Motivators: ""Why Do I Use Tobacco?"""
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/div[4]/a[1]/span",
+,,"Verify 'ell Others about Your Plan to Quit' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/h2","ell Others about Your Plan to Quit"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/div[4]/a[1]/span",
+,,"Verify 'Anticipate and Plan for Triggers” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/h2","nticipate and Plan for Triggers"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/div[4]/a[1]/span",
+,,"Verify 'Remove Tobacco Products from Your Home, Car and Work' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/h2","emove Tobacco Products from Your Home, Car and Work"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/div[4]/a[1]/span",
+,,"Verify 'Talk to Your Doctor about Getting Help to Quit” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/h2","Alk to Your Doctor about Getting Help to Quit"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_285']/div[4]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson 6'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[5]/div",
+,,"Click on 'Start Lesson' for Lesson 6","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/div[5]/a/span",
+,,"Verify 'Medication for Physical Withdrawal'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/h2","Medication for Physical Withdrawal"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/div[4]/a[1]/span",
+,,"Verify'Nicotine Replacement Therapy (NRT)' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/h2","Nicotine Replacement Therapy (NRT)"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/div[4]/a[1]/span",
+,,"Verify  'Other Medications (Non-Nicotine)' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/h2","Other Medications (Non-Nicotine)"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/div[4]/a[1]/span",
+,,"Verify ' Deciding on Medications' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/h2","Deciding on Medications"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_286']/div[4]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson 7'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[7]/div",
+,,"Click on 'Start Lesson' for Lesson 7","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_287']/div[5]/a/span",
+,,"Verify 'Myth or Truth?'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_287']/h2","Myth or Truth?"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_287']/div[4]/a[1]/span",
+,,"Verify'Support and Being a Role Model' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_287']/h2","Support and Being a Role Model"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_287']/div[4]/a[1]/span",
+,,"Verify  'Suggestions for Support' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_287']/h2","Suggestions for Support"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_287']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_287']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_287']/div[4]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson 8'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[8]/div",
+,,"Click on 'Start Lesson' for Lesson 8","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/div[5]/a/span",
+,,"Verify 'Action Steps Worth Trying'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/h2","Action Steps Worth Trying"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/div[4]/a[1]/span",
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/div[4]/a[1]/span",
+,,"Verify  'Stress and Tobacco Use' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/h2","Stress and Tobacco Use"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/div[4]/a[1]/span",
+,,"Verify 'What Do I Do Now?' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/h2","What Do I Do Now?"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_288']/div[4]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson 9'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[9]/div",
+,,"Click on 'Start Lesson' for Lesson 9","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/div[5]/a/span",
+,,"Verify 'Women and Tobacco'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/h2","Women and Tobacco"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/div[4]/a[1]/span",
+,,"Verify 'Men and Tobacco' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/h2","Men and Tobacco"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/div[4]/a[1]/span",
+,,"Verify  'Values Inventory' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/h2","Values Inventory"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/div[4]/a[1]/span",
+,,"Verify 'Positive Thinking' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/h2","Positive Thinking"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_289']/div[4]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson10'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[10]/div",
+,,"Click on 'Start Lesson' for Lesson 10","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/div[5]/a/span",
+,,"Verify 'The Importance of Rewards'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/h2","The Importance of Rewards"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/div[4]/a[1]/span",
+,,"Verify 'Types of Rewards' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/h2","Types of Rewards"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/div[4]/a[1]/span",
+,,"Verify  'Examples of Rewards' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/h2","Examples of Rewards"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/div[4]/a[1]/span",
+,,"Verify 'CELEBRATING SUCCESS' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/h2","CELEBRATING SUCCESS"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_290']/div[4]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson11'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[11]/div",
+,,"Click on 'Start Lesson' for Lesson 11","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/div[5]/a/span",
+,,"Verify 'Identifying Who Needs Help'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/h2","Identifying Who Needs Help"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/div[4]/a[1]/span",
+,,"Verify 'Your Possible Role' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/h2","Your Possible Role"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/div[4]/a[1]/span",
+,,"Verify  'Identifying Opportunities' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/h2"," Identifying Opportunities"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/div[4]/a[1]/span",
+,,"Verify 'Making a Difference' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/h2","Making a Difference"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_291']/div[4]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Lesson12'","click_On_Button","Yes","Onlife","xpath",".//*[@id='Lessons_37950']/a[12]/div",
+,,"Click on 'Start Lesson' for Lesson 12","click_On_Button","Yes","Onlife","xpath",".//*[@id='lessons']/div[5]/a[2]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/div[5]/a/span",
+,,"Verify 'Relapse! What to do...'","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/h2","Relapse! What to do..."
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/div[4]/a[1]/span",
+,,"Verify 'Relapse Prevention: ODAT or' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/h2","Relapse Prevention: ODAT or"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/div[4]/a[1]/span",
+,,"Verify  'Relapse Prevention: HALTS' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/h2","Relapse Prevention: HALTS"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/div[4]/a[1]/span",
+,,"Verify 'HALTS continued' in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/h2","HALTS continued"
+,,"Click on “Next Page”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/div[4]/a[1]/span",
+,,"Verify ' Wrapping Up and Looking Ahead” in the page","VerifyTextInParagraph","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/h2","Wrapping Up and Looking Ahead"
+,,"Click on “Finish”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CourseLesson_292']/div[4]/a[1]/span",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC017","Verify the user is able to set goal by selecting “IMPROVING CHOLESTEROL” program under “ONMYTEAM”.","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+,,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","//input[@class='username']","50_20150311_110138_102794"
+,,"Enter “Password'","enter_Text","Yes","Onlife","xpath","//input[@class='password']","Password1"
+,,"Click on “Login”","click_On_Button","Yes","Onlife","xpath","//button[@type='submit']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'View More Programs'","click_On_Button","Yes","Onlife","xpath","//div[@class='goalsSummary']/div[4]/p/a/span",
+,,"Click on 'Improve Cholesterol'","click_On_link","Yes","Onlife","xpath",".//*[@id='CoachGoals_5569155']/div/div/div/div/div[1]/div/div/div[3]/span/ul/li[6]/a/span[1]/img[@src='/Images/goalImg_cholesterol.jpg']",
+,,"Enter text in Total Cholesterol","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_CurrentTotalCholesterolText']",91
+,,"Enter text in LDL","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_CurrentLDLText']",56
+,,"Enter text in HDL","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_CurrentHDLText']",65
+,,"Enter text in Triglycerides","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_CurrentTriglyceridesText']",78
+,,"Enter text in Total Cholesterol in 'My Goal'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_GoalTotalCholesterolText']",78
+,,"Enter text in LDL in 'My Goal'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_GoalLDLText']",45
+,,"Enter text in HDL in 'My Goal'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_GoalHDLText']",75
+,,"Enter text in Triglycerides in 'My Goal'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_GoalTriglyceridesText']",65
+,,"Enter date in Target Date","editSet_PreviusORFutureDate","Yes","Onlife","xpath",".//*[@id='GoalStep21_Improve_Cholesterol_Target_Date']",04/30/2015
+,,"Click on 'Continue'","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'an Action Step","click_On_Button","Yes","Onlife","xpath",".//*[@id='list_1']/li[1]",
+,,"Click on right arrow key('>')","click_On_Button","Yes","Onlife","xpath","//a[@class='right']",
+,,"Click on “Continue”","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Finish'","click_On_Button","Yes","Onlife","xpath","//a[@class='button finish']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Remove' to remove the goal","click_On_Button","Yes","Onlife","xpath",".//*[@id='RemoveGoal']",
+,,"Click on 'Yes,I'M Sure'","click_On_Button","Yes","Onlife","xpath",".//*[@id='YesButton']/span",
+,,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC018","Verify the user is able to set goal by selecting “IMPROVE FITNESS LEVEL” program under “ONMYTEAM”.","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+,,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","//input[@class='username']","50_20150311_110138_102794"
+,,"Enter “Password'","enter_Text","Yes","Onlife","xpath","//input[@class='password']","Password1"
+,,"Click on “Login”","click_On_Button","Yes","Onlife","xpath","//button[@type='submit']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'View More Programs'","click_On_Button","Yes","Onlife","xpath","//div[@class='goalsSummary']/div[4]/p/a/span",
+,,"Click on 'Improve Fitness Level'","click_On_link","Yes","Onlife","xpath",".//*[@id='CoachGoals_5569155']/div/div/div/div/div[1]/div/div/div[3]/span/ul/li[2]/a/span[1]/img[@src='/Images/goalImg_physicalActivityIncrease.jpg']",
+,,"Enter text in 'Cardio'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_Physical_CurrentCardioText']",10
+,,"Enter text in 'Strength'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_Physical_CurrentStrengthText']",2
+,,"Enter text in 'Stretching'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_Physical_CurrentStretchingText']",3
+,,"Enter text in 'Cardio' for 'My Goal'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_Physical_GoalCardioText']",15
+,,"Enter text in 'Strength' for 'My Goal'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_Physical_GoalStrengthText']",3
+,,"Enter text in 'Stretching' for 'My Goal'","enter_Text","Yes","Onlife","xpath",".//*[@id='Improve_Physical_GoalStretchingText']",2
+,,"Enter date in Target Date","editSet_PreviusORFutureDate","Yes","Onlife","xpath",".//*[@id='GoalStep21_Improve_Physical_Target_Date']",04/30/2015
+,,"Click on 'Continue'","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on an 'Action Step'","click_On_Button","Yes","Onlife","xpath",".//*[@id='list_1']/li[1]/table/tbody/tr/td[2]",
+,,"Click on right arrow key('>')","click_On_Button","Yes","Onlife","xpath","//a[@class='right']",
+,,"Click on “Continue”","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Finish'","click_On_Button","Yes","Onlife","xpath","//a[@class='button finish']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Remove' to remove the goal","click_On_Button","Yes","Onlife","xpath",".//*[@id='RemoveGoal']",
+,,"Click on 'Yes,I'M Sure'","click_On_Button","Yes","Onlife","xpath",".//*[@id='YesButton']/span",
+,,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC019","Verify the user is able to set goal by selecting “IMPROVE BLOOD PRESSURE” program under “ONMYTEAM”.","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+,,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","//input[@class='username']","50_20150311_110138_102794"
+,,"Enter 'Password'","enter_Text","Yes","Onlife","xpath","//input[@class='password']","Password1"
+,,"Click on 'Login”","click_On_Button","Yes","Onlife","xpath","//button[@type='submit']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “View More Programs”","click_On_Button","Yes","Onlife","xpath","//div[@class='goalsSummary']/div[4]/p/a/span",
+,,"Click on “Improve Blood Pressure”","click_On_Button","Yes","Onlife","xpath",".//*[@id='CoachGoals_5569155']/div/div/div/div/div[1]/div/div/div[3]/span/ul/li[1]/a/span[1]/img[@src='/Images/goalImg_bloodPressure.jpg']",
+,,"Enter text in 'Systolic'","enter_Text","Yes","Onlife","xpath",".//*[@id='CurrentSystolic']",80
+,,"Enter text in 'Diastolic'","enter_Text","Yes","Onlife","xpath",".//*[@id='CurrentDiastolic']",90
+,,"Enter text in 'Systolic' for My Goal","enter_Text","Yes","Onlife","xpath",".//*[@id='GoalSystolic']",84
+,,"Enter text in 'Diastolic' for 'My Goal'","enter_Text","Yes","Onlife","xpath",".//*[@id='GoalDiastolic']",74
+,,"Enter date in Target Date","editSet_PreviusORFutureDate","Yes","Onlife","xpath",".//*[@id='GoalStep21_Improve_Physical_Target_Date']",04/30/2015
+,,"Click on 'Continue'","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on an 'Action Step'","click_On_Button","Yes","Onlife","xpath",".//*[@id='list_1']/li[1]/table/tbody/tr/td[2]",
+,,"Click on right arrow key('>')","click_On_Button","Yes","Onlife","xpath","//a[@class='right']",
+,,"Click on “Continue”","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Finish'","click_On_Button","Yes","Onlife","xpath","//a[@class='button finish']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Remove' to remove the goal","click_On_Button","Yes","Onlife","xpath",".//*[@id='RemoveGoal']",
+,,"Click on 'Yes,I'M Sure'","click_On_Button","Yes","Onlife","xpath",".//*[@id='YesButton']/span",
+,,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC020","Verify the user is able to set goal by selecting “Decrease Weight” program under “ONMYTEAM”.","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+,,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","//input[@class='username']","50_20150311_110138_102794"
+,,"Enter 'Password'","enter_Text","Yes","Onlife","xpath","//input[@class='password']","Password1"
+,,"Click on 'Login”","click_On_Button","Yes","Onlife","xpath","//button[@type='submit']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “View More Programs”","click_On_Button","Yes","Onlife","xpath","//div[@class='goalsSummary']/div[4]/p/a/span",
+,,"Click on 'Decrease Weight'","click_On_link","Yes","Onlife","xpath",".//*[@id='CoachGoals_5569155']/div/div/div/div/div[1]/div/div/div[3]/span/ul/li[5]/a/span[1]/img[@src='/Images/goalImg_weightLose.jpg']",
+,,"Enter Current Weight","enter_Text","Yes","Onlife","xpath",".//*[@id='GoalStep21_currentWeight']",55
+,,"Enter Weight for 'My Goal'","enter_Text","Yes","Onlife","xpath",".//*[@id='targetWeight']",52
+,,"Enter date in Target Date","editSet_PreviusORFutureDate","Yes","Onlife","xpath",".//*[@id='GoalStep21_Improve_Physical_Target_Date']",04/30/2015
+,,"Click on 'Continue'","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on an 'Action Step'","click_On_Button","Yes","Onlife","xpath",".//*[@id='list_1']/li[1]/table/tbody/tr/td[2]",
+,,"Click on right arrow key('>')","click_On_Button","Yes","Onlife","xpath","//a[@class='right']",
+,,"Click on “Continue”","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Finish'","click_On_Button","Yes","Onlife","xpath","//a[@class='button finish']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Remove' to remove the goal","click_On_Button","Yes","Onlife","xpath",".//*[@id='RemoveGoal']",
+,,"Click on 'Yes,I'M Sure'","click_On_Button","Yes","Onlife","xpath",".//*[@id='YesButton']/span",
+,,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC021","Verify the user is able to set goal by selecting “Maintain Weight” program under “ONMYTEAM”.","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+,,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","//input[@class='username']","50_20150311_110138_102794"
+,,"Enter 'Password'","enter_Text","Yes","Onlife","xpath","//input[@class='password']","Password1"
+,,"Click on 'Login”","click_On_Button","Yes","Onlife","xpath","//button[@type='submit']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “View More Programs”","click_On_Button","Yes","Onlife","xpath","//div[@class='goalsSummary']/div[4]/p/a/span",
+,,"Click on 'Maintain Weight'","click_On_link","Yes","Onlife","xpath",".//*[@id='CoachGoals_5569155']/div/div/div/div/div[1]/div/div/div[3]/span/ul/li[10]/a/span[1]/img[@src='/Images/goalImg_weightMaintain.jpg']",
+,,"Enter 'Weight' in current status","enter_Text","Yes","Onlife","xpath",".//*[@id='GoalStep21_Maintain_Weight_Weight']",60
+,,"Click on 'Continue'","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on an 'Action Step'","click_On_Button","Yes","Onlife","xpath",".//*[@id='list_1']/li[1]/table/tbody/tr/td[2]",
+,,"Click on right arrow key('>')","click_On_Button","Yes","Onlife","xpath","//a[@class='right']",
+,,"Click on “Continue”","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Finish'","click_On_Button","Yes","Onlife","xpath","//a[@class='button finish']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on 'Remove' to remove the goal","click_On_Button","Yes","Onlife","xpath",".//*[@id='RemoveGoal']",
+,,"Click on 'Yes,I'M Sure'","click_On_Button","Yes","Onlife","xpath",".//*[@id='YesButton']/span",
+,,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC022","Verify the user is able to set Goal by selecting 'IMPROVING NUTRITION' program under “ONMYTEAM”.","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+,,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","//input[@class='username']","50_20150311_110138_102794"
+,,"Enter 'Password'","enter_Text","Yes","Onlife","xpath","//input[@class='password']","Password1"
+,,"Click on 'Login”","click_On_Button","Yes","Onlife","xpath","//button[@type='submit']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+,,"Click on “View More Programs”","click_On_Button","Yes","Onlife","xpath","//div[@class='goalsSummary']/div[4]/p/a/span",
+"TC023","Verify that 'First Name' field is  editable","invokeBrowser","invokeBrowser","Yes","Onlife",,,
+"TC023",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC023",,"Enter 'Username'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[1]","50_20150311_110138_102794"
+"TC023",,"Enter “Password'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[2]","Password1"
+"TC023",,"Click on “Login”","click_On_Button","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/button",
+"TC023",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC023",,"Click on 'My Settings'","click_On_link","Yes","Onlife","xpath",".//*[@id='Menu1']/li[3]/a",
+"TC023",,"Click on 'Edit' button","click_On_Button","Yes","Onlife","xpath","//*[@id='MyInformation_edit']/span",
+"TC023",,"Verify 'First Name' is present","VerifyTextInTextBox","Yes","Onlife","xpath",".//*[@id='MyInformation_firstname']",
+"TC023",,"Edit 'First Name'","enter_Text","Yes","Onlife","xpath",".//*[@id='MyInformation_firstname']","EmilieTest"
+"TC023",,"Click on 'Save' button","click_On_Button","Yes","Onlife","xpath",".//*[@id='MyInformation_save']/span",
+"TC023",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC023",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC001","Verify the user is able to set goal by selecting “Quit Tobacco Use” program under “ONMYTEAM”.","Enter 'Username'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[1]","50_20150311_110138_102794"
+"TC001",,"Enter “Password'","enter_Text","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/input[2]","Password1"
+"TC001",,"Click on 'Login'","click_On_Button","Yes","Onlife","xpath","html/body/section[1]/section[2]/div[1]/form/button",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC001",,"Click on “View More Programs”","click_On_Button","Yes","Onlife","xpath","//div[@class='goalsSummary']/div[4]/p/a/span",
+"TC001",,"Click on “Quit Tobacco'","click_On_link","Yes","Onlife","xpath",".//*[@id='CoachGoals_5569155']/div/div/div/div/div[1]/div/div/div[3]/span/ul/li[4]/a/span[1]/img[@src='/Images/goalImg_smoking.jpg']",
+"TC001",,"Select 'Type of Tobacco'","dropdownSelect","Yes","Onlife","xpath",".//*[@id='GoalStep21_TypeOfTobacco']","Cigarette"
+"TC001",,"Enter 'number of cigarettes per day'","enter_Text","Yes","Onlife","xpath",".//*[@id='GoalStep21_TobaccoDay']",5
+"TC001",,"Enter 'Target Date'","enter_Text","Yes","Onlife","xpath",".//*[@id='GoalStep21_Quit_Smoking_Tobacco_Use_Target_Date']",04/30/2015
+"TC001",,"Click on 'Continue'","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+"TC001",,"Click on an 'Action Step'","click_On_Button","Yes","Onlife","xpath",".//*[@id='list_1']/li[1]/table/tbody/tr/td[2]",
+"TC001",,"Click on right arrow key('>')","click_On_Button","Yes","Onlife","xpath","//a[@class='right']",
+"TC001",,"Click on 'Continue'","click_On_Button","Yes","Onlife","xpath","//a[@class='button continue']",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC001",,"Click on 'Finish'","click_On_Button","Yes","Onlife","xpath","//a[@class='button finish']",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC001",,"Click on 'Remove' to remove the goal","click_On_Button","Yes","Onlife","xpath",".//*[@id='RemoveGoal']",
+"TC001",,"Click on 'Yes,I'M Sure'","click_On_Button","Yes","Onlife","xpath",".//*[@id='YesButton']/span",
+"TC001",,"Click on 'LogOff'","click_On_link","Yes","Onlife","xpath",".//*[@id='a_logout']",
+"TC001",,"Tool wait time","ToolToWaitInMilliSeconds","Yes","Onlife",5000,,
+"TC002","Verify the user is able to Track the goals which is Recommended that pre populated from “HA”.","Click on Email adress","click_On_link","No","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC002",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",9000,,
+"TC002",,"Click on 'DashBoard' link","click_On_link","No","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC002",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC002",,"Click on 'Go To DashBoard'","click_On_link","No","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC002",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC002",,"Click on 'Trackers'","click_On_link","No","Onlife","xpath","html/body/form[1]/div[3]/div[1]/div[2]/div/div[3]/div[9]/a/span",
+"TC002",,"Verify 'My Tracking Tools' in paragraph","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='wrapper']/div[2]/div[2]/div[1]/div[1]/h1/span","My Tracking Tools "
+"TC002",,"Click on 'All Trackers'","click_On_link","No","Onlife","xpath",".//*[@id='AllTrackers']/table/tbody/tr/th",
+"TC002",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",9000,,
+"TC003","Verify the user is able to view health wise content","Click on Email adress","click_On_link","No","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC003",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",9000,,
+"TC003",,"Click on 'DashBoard' link","click_On_link","No","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC003",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC003",,"Click on 'Go To DashBoard'","click_On_link","No","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC003",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC003",,"Click on 'Health Information' tab","click_On_link","No","Onlife","xpath",".//*[@id='MenuBox_menubox_main']/div/div[3]/div[10]/a/span",
+"TC003",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC003",,"Verify 'Health Contents' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='HealthResourcesWC_ctl00_ctl00_titlelink']","Asthma: Asthma Basics"
+"TC003",,"Verify 'My Content' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='contentpanel']/div[1]/div/div/h2","My Content"
+"TC003",,"Verify 'My Tools' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='MyTools']/h2/span","My Tools"
+"TC003",,"Click on 'LogOff'","click_On_link","No","Onlife","xpath",".//*[@id='a_logout']",
+"TC003",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC004","Verify if user is able to browse articles","Click on Email adress","click_On_link","No","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC004",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",9000,,
+"TC004",,"Click on 'DashBoard' link","click_On_link","No","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC004",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC004",,"Click on 'Go To DashBoard'","click_On_link","No","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC004",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC004",,"Click on 'Health Information' tab","click_On_link","No","Onlife","xpath",".//*[@id='MenuBox_menubox_main']/div/div[3]/div[10]/a/span",
+"TC004",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC004",,"Verify 'Health Contents' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='HealthResourcesWC_ctl00_ctl00_titlelink']","Asthma: Asthma Basics"
+"TC004",,"Verify 'My Content' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='contentpanel']/div[1]/div/div/h2","My Content"
+"TC004",,"Verify 'My Tools' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='MyTools']/h2/span","My Tools"
+"TC004",,"Browse Healthwise Content using letter 'A'.","click_On_link","No","Onlife","xpath",".//*[@id='browsesubbar']/div/div/div/a[2]",
+"TC004",,"Verify 'Keyword List' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='keywordpanel']/div[1]/div/div/h2","Keyword List"
+"TC004",,"Verify Healthwise Contents with names starting from 'A' is dispklayed.","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='keywordpanel']/div[2]/div/table/tbody/tr/td[1]/a[1]","A&D Ointment"
+"TC004",,"Click on 'LogOff'","click_On_link","No","Onlife","xpath",".//*[@id='a_logout']",
+"TC004",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC005","Verify that User Can able to view Onlie health content","Click on Email adress","click_On_link","No","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC005",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",9000,,
+"TC005",,"Click on 'DashBoard' link","click_On_link","No","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC005",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC005",,"Click on 'Go To DashBoard'","click_On_link","No","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC005",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC005",,"Click on 'Health Information' tab","click_On_link","No","Onlife","xpath",".//*[@id='MenuBox_menubox_main']/div/div[3]/div[10]/a/span",
+"TC005",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC005",,"Verify 'Health Contents' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='HealthResourcesWC_ctl00_ctl00_titlelink']","Asthma: Asthma Basics"
+"TC005",,"Verify 'My Content' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='contentpanel']/div[1]/div/div/h2","My Content"
+"TC005",,"Verify 'My Tools' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='MyTools']/h2/span","My Tools"
+"TC005",,"Click on 'Symptom Checker'","click_On_link","No","Onlife","xpath",".//*[@id='SymptomChecker']/h2/span",
+"TC005",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC006","Verify that user can view loading the article on Clicking body part of the Symptom Checker page ","Click on Email adress","click_On_link","No","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC006",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",9000,,
+"TC006",,"Click on 'DashBoard' link","click_On_link","No","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC006",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC006",,"Click on 'Go To DashBoard'","click_On_link","No","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC006",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC006",,"Click on 'Health Information' tab","click_On_link","No","Onlife","xpath",".//*[@id='MenuBox_menubox_main']/div/div[3]/div[10]/a/span",
+"TC006",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC006",,"Verify 'Health Contents' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='HealthResourcesWC_ctl00_ctl00_titlelink']","Asthma: Asthma Basics"
+"TC006",,"Verify 'My Content' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='contentpanel']/div[1]/div/div/h2","My Content"
+"TC006",,"Verify 'My Tools' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='MyTools']/h2/span","My Tools"
+"TC006",,"Click on 'Symptom Checker'","click_On_link","No","Onlife","xpath",".//*[@id='SymptomChecker']/h2/span",
+"TC006",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC006",,"Click on 'Head” on Symptom Checker window","click_On_link","No","Onlife","xpath","html/body/form/div[3]/div[2]/div[2]/div[1]/div/div[3]/div[1]/div/div/embed",
+"TC006",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC006",,"Click on 'Confusion,Memory loss,and Altered Alterness'","click_On_link","No","Onlife","xpath","html/body/form/div[3]/div[2]/div[2]/div[1]/div/div[3]/div[1]/div/div/embed",
+"TC006",,"Click on 'LogOff'","click_On_link","No","Onlife","xpath",".//*[@id='a_logout']",
+"TC006",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC007","Verify whether member is able to see his/her name in “Email” option","Click on Email adress","click_On_link","No","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+"TC007",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",9000,,
+"TC007",,"Click on 'DashBoard' link","click_On_link","No","Onlife","xpath",".//*[@id='HyperLink1']",
+"TC007",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC007",,"Click on 'Go To DashBoard'","click_On_link","No","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+"TC007",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC007",,"Click on 'My Settings'","click_On_link","No","Onlife","xpath",".//*[@id='Menu1']/li[3]/a",
+"TC007",,"Click on 'Edit' button","click_On_Button","No","Onlife","xpath",".//*[@id='MyProfile_edit']/span",
+"TC007",,"Verify 'Mail Preference' in the page","VerifyTextInParagraph","No","Onlife","xpath",".//*[@id='MyProfile_mailPreferenceDiv']/label",
+"TC007",,"Click on 'LogOff'","click_On_link","No","Onlife","xpath",".//*[@id='a_logout']",
+"TC007",,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+"TC008","Verify whether member is able to add Email ","Click on Email adress","click_On_link","No","Onlife","xpath",".//*[@id='form1']/div[3]/div[7]/table/tbody/tr[27]/td[4]/a",
+,,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",9000,,
+,,"Click on 'DashBoard' link","click_On_link","No","Onlife","xpath",".//*[@id='HyperLink1']",
+,,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+,,"Click on 'Go To DashBoard'","click_On_link","No","Onlife","xpath","html/body/div[3]/div[2]/form/div/table/tbody/tr/td[3]/a",
+,,"Tool wait time","ToolToWaitInMilliSeconds","No","Onlife",5000,,
+,,"Click on 'My Settings'","click_On_link","No","Onlife","xpath",".//*[@id='Menu1']/li[3]/a",
+,,"Click on 'Edit' button","click_On_Button","No","Onlife","xpath",".//*[@id='MyProfile_edit']/span",
+,,"Add 'Email Address'","enter_Text","No","Onlife","xpath",".//*[@id='MyProfile_email']","Abc.k@emids.com"
+,,"Click on 'Save' button","click_On_Button","No","Onlife","xpath",".//*[@id='MyProfile_save']/span",
+,,"Verify added email id is displayed","verifyTextInParagraph","No","Onlife","xpath",".//*[@id='MyProfile_d_email']","Abc.k@emids.com"
